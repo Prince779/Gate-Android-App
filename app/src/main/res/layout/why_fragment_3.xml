@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/image"
+    android:fillViewport="true"
+    android:background="#F4E4D3"
+    android:scrollbars="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/psu" />
+
+       <!-- <ImageView
+            android:id="@+id/indi"
+            android:layout_below="@+id/image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/indi" />-->
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="3dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textColor="#000000"
+
+            android:text="GATE is also recognized and accepted in the University of Singapore.\n\nGATE results are considered as eligibility criteria when applying for Public Sector Units (PSU) jobs.\nIndian Oil Corporation was the first PSU which successfully tested out this system and was followed two years later by NTPC , BHE, BEPGCI.\n These Companies release their recruitment notification right after GATE notification, indicating that candidates have to take GATE to be considered for a Job in their organizations."
+            android:textSize="17dp"
+            android:textStyle="italic" />
+        <!--<TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:textSize="17dp"
+            android:text="University of Singapore."
+            android:textStyle="bold|italic" />
+-->
+        <!--<ImageView
+            android:id="@+id/indi2"
+            android:layout_below="@+id/text2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/indi" />-->
+      <!--  <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/indi2"
+            android:layout_below="@+id/text2"
+            android:layout_marginTop="8dp"
+            android:text="GATE results are considered as eligibility"
+            android:textSize="17dp"
+            android:textStyle="bold|italic" />-->
+      <!--  <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text3"
+            android:textSize="17dp"
+            android:text="criteria when applying for Public Sector Units (PSU) jobs.\nIndian Oil Corporation was the first PSU which successfully tested out this system and was followed two years later by NTPC , BHE, BEPGCI.\n These Companies release their recruitment notification right after GATE notification, indicating that candidates have to take GATE to be considered for a Job in their organizations."
+            android:textStyle="bold|italic" />-->
+
+        <TextView
+            android:id="@+id/text5"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:text="For more info regarding why GATE?"
+            android:layout_width="wrap_content"
+            android:paddingLeft="4dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"/>
+        <TextView
+            android:id="@+id/text6"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="Click here"
+            android:textColor="#E1492D"
+            android:layout_below="@+id/text5"
+            android:layout_centerHorizontal="true"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,63 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/image"
+    android:fillViewport="true"
+    android:background="#F4E4D3"
+    android:scrollbars="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/thr" />
+       <!-- <ImageView
+            android:id="@+id/indi"
+            android:layout_below="@+id/image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/indi" />-->
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="3dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="A good score in GATE is a prerequisite for getting admission to IITs, IIITs, NITs, IISc, and other acclaimed M. Tech institutions across India. The GATE results are also considered as an important
+criteria to qualify for different fellowships awarded by Government organizations.\n\nWhether you can get admission to top notch Clearing the GATE exam is a chance for you to experience the true essence of being an engineer or having an engineering degree.Preparing for the GATE questions helps you improve on your research and development skills.Students having good GATE results get a chance to learn advanced engineering concepts through world class faculties.GATE is a gateway to extensive practical exercises, various case studies, simulation and modelling of real life problems, individual and group projects, research publications/presentations in
+journals/conferences, etc.GATE helps you learn in a highly competitive environment (best brains in the country) and, thus, develops and broadens your intellectual thought process."
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_below="@+id/text"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#E1492D"
+            android:text="Benefits of ME/M.Tech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_below="@+id/text5"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:text="Better and more satisfying job profile\nEarn while you learn: financial scholarships (a minimum of 8,000/INR
+per month)\nHigher salary offered as compared to BE/B.Tech\nEligibility criteria to apply for faculty/research positions in educational/R n D centers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </ScrollView>

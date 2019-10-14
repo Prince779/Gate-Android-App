@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/image"
+    android:fillViewport="true"
+    android:background="#F4E4D3"
+    android:scrollbars="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/neww" />
+        <!--<ImageView
+            android:id="@+id/indi"
+            android:layout_below="@+id/image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/indi" />-->
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="3dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:textColor="#000000"
+            android:text="Gate is an all-India examination being conducted and administered by the Indian Institute of Science and seven Indian Institutes of Technology on behalf of the National Coordination Board – GATE, Department of Higher Education, Ministry of Human Resource Development, Government of India.\n\nThe GATE score of a candidate reflecrs the relative performance level of a candidate.The score is used for admission to various post graduate education programs (e.g. Master of Engineering ,Master of Technology,Doctor of Philosophy) in Indian higher education institutes, with financial assistance provided by MHRD and other government agencies.\n\nA valid GATE score is essential to obtain financial assistance during Master's program and direct Doctorial programs in Engineering/Technology/Architecture, and Doctoral programs in relevant branches of Science in institutes supported by the Ministry of Human Resources Development."
+            android:textSize="15dp"
+            android:textStyle="italic" />
+      <!--  <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:text="conducted and administered by the Indian Institute of Science and seven Indian Institutes of Technology on behalf of the National Coordination Board – GATE, Department of Higher Education, Ministry of Human Resource Development, Government of India."
+            android:textSize="17dp"
+            android:textStyle="bold|italic" />-->
+      <!--  <ImageView
+            android:id="@+id/indi2"
+            android:layout_below="@+id/text2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/indi" />-->
+       <!-- <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/indi2"
+            android:layout_below="@+id/text2"
+            android:layout_marginTop="8dp"
+            android:text="The GATE score of a candidate reflecrs the "
+            android:textSize="17dp"
+            android:textStyle="bold|italic" />-->
+       <!-- <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text3"
+            android:text="relative performance level of a candidate.The score is used for admission to various post graduate education programs (e.g. Master of Engineering ,Master of Technology,Doctor of Philosophy) in Indian higher education institutes, with financial assistance provided by MHRD and other government agencies."
+            android:textSize="17dp"
+            android:textStyle="bold|italic" />-->
+
+       <!-- <ImageView
+            android:id="@+id/indi3"
+            android:layout_below="@+id/text4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/indi" />-->
+      <!--  <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/indi3"
+            android:layout_below="@+id/text4"
+            android:layout_marginTop="8dp"
+            android:text="A valid GATE score is essential to obtain"
+            android:textSize="17dp"
+            android:textStyle="bold|italic" />-->
+       <!-- <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text5"
+            android:textSize="17dp"
+            android:text="financial assistance during Master's program and direct Doctorial programs in Engineering/Technology/Architecture, and Doctoral programs in relevant branches of Science in institutes supported by the Ministry of Human Resources Development."
+            android:textStyle="bold|italic" />-->
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9073FF">
+
+   <!-- <View android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round"/>-->
+
+
+<ImageView
+    android:src="@drawable/first"
+    android:id="@+id/first"
+    android:layout_marginTop="30dp"
+    android:layout_centerHorizontal="true"
+    android:layout_width="300dp"
+    android:layout_height="350dp" />
+
+   <TextView
+       android:id="@+id/t1"
+       android:text="TAP ON ANY SUBJECT\n     TO VIEW  TOPICS "
+       android:textColor="@color/white"
+       android:textStyle="bold"
+       android:layout_marginTop="70dp"
+       android:layout_below="@+id/first"
+       android:layout_centerHorizontal="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+
+
+
+</RelativeLayout>

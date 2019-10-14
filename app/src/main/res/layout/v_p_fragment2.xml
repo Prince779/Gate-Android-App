@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#24CED4">
+
+   <!-- <TextView
+        android:id="@+id/tv"
+        android:text="V P Fragment2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp" />-->
+    <ImageView
+        android:src="@drawable/second"
+        android:id="@+id/second"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="350dp" />
+    <TextView
+        android:text="TAP ON ANY TOPIC TO\n     VIEW  TUTORIAL "
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/second"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

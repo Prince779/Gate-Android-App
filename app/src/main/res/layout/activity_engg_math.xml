@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:background="#80003B00"
+
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:src="@mipmap/back"
+            android:layout_marginTop="9dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topics"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginRight="160dp"
+            android:textColor="#000" />
+        <TextView
+            android:textColor="#000"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/view"
+        android:layout_below="@+id/lin"
+        android:background="#80837F"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"/>
+
+
+    <ListView
+        android:id="@+id/lv"
+
+        android:layout_below="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+  </RelativeLayout>
+

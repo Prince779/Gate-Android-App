@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/subject"
+            android:icon="@mipmap/play"
+            android:title="Subject" />
+        <item
+            android:id="@+id/recentview"
+            android:icon="@android:drawable/presence_video_online"
+            android:title="Recently View" />
+
+        <item
+            android:id="@+id/favourite"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Favourite"/>
+        <item
+            android:id="@+id/userguide"
+            android:icon="@android:drawable/ic_menu_report_image"
+            android:title="User Guide" />
+        <item
+            android:id="@+id/whygate"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="WHY Gate?" />
+        <item
+
+            android:id="@+id/fre"
+            android:title="FAQ"
+            android:icon="@android:drawable/ic_menu_info_details" />
+        <item
+            android:id="@+id/feed"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Feedback"/>
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/common_full_open_on_phone"
+            android:title="Exit"/>
+       <!-- <item
+            android:id="@+id/search"
+            android:title="Mock test"/>-->
+
+
+    </group>
+
+
+
+</menu>
